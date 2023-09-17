@@ -1,0 +1,40 @@
+.wrapper {
+display:grid;
+grid-template-columns: 50% 40%;
+grid-column-gap:1em;
+grid-row-gap:1em;
+}
+#header {
+background-color: rgb(83, 19, 19);
+color:rgb(134, 61, 61);
+border: 5px solid rgb(31, 8, 8);
+text-align: center;
+}
+#div1 {
+background-color: rgb(64, 64, 180);
+color:burlywood;
+border:5px solid rgb(23, 23, 88);
+text-align: center;
+}
+#div2 {
+background-color: coral;
+color: white;
+border:5px solid rgb(139, 94, 42);
+text-align: center;
+}
+body {
+background-color: black;
+
+}
+#div3 {
+background-color: darkslategray;
+color: aqua;
+border: 5px solid rgb(13, 61, 57);
+padding:15px;
+}
+#div4 {
+background-color: crimson;
+color:aqua;
+border:5px solid maroon;
+padding:15px;
+}
